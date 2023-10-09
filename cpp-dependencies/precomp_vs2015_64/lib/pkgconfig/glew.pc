@@ -1,0 +1,11 @@
+prefix=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64
+exec_prefix=${prefix}
+libdir=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64/lib
+includedir=${prefix}/include
+
+Name: glew
+Description: The OpenGL Extension Wrangler library
+Version: 2.1.0
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lglew32
+Requires: glu

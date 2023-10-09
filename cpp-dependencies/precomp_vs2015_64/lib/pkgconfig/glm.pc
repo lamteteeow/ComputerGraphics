@@ -1,0 +1,7 @@
+prefix=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64
+includedir=${prefix}/include
+
+Name: GLM
+Description: OpenGL Mathematics
+Version: 0.9.9
+Cflags: -I${includedir}

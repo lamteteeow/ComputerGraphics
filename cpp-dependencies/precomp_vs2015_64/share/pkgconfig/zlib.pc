@@ -1,0 +1,13 @@
+prefix=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64
+exec_prefix=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64
+libdir=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64/lib
+sharedlibdir=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64/lib
+includedir=D:/Programming/CG/2017/Exercises/cpp-deps/precomp_vs2015_64/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

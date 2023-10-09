@@ -1,0 +1,6 @@
+Pro:
+- simple to implement 
+
+Cons:
+- very deep recursion possible (requires large stack) 
+- rather inefficient

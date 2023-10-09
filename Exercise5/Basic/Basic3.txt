@@ -1,0 +1,2 @@
+- Since in Phong shading we set color for every point that we calculate on the surface line.
+- On the other hand, both of Gouraud and Flat shading set color or interpolate the color base on line/area segment, which is only efficient in case of the Mach Band Effect, or in particular Flat. Gouraud shading has also a problem with the highlights, as taught in the lectures. 

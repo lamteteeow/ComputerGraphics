@@ -1,0 +1,4 @@
+2.b) - It is not correct.
+	 - Linear interpolation
+
+2.c) - It is now.
